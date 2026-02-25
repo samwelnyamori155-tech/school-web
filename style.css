@@ -153,3 +153,72 @@ footer {
     font-weight: bold;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+/* About Page */
+.about-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.about-card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Forms */
+.form-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form select,
+form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form button {
+    padding: 12px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #87CEEB;
+    color: #800000;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .features,
+    .mission-vision,
+    .about-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
