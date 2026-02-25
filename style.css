@@ -1,49 +1,108 @@
+/* Reset */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
 }
 
+/* Header */
 header {
-    background: #004aad;
+    background: linear-gradient(135deg, #800000, #87CEEB);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* Navigation */
 nav {
-    background: #003580;
+    background-color: #800000;
+    padding: 12px;
     text-align: center;
-    padding: 10px;
 }
 
 nav a {
     color: white;
-    margin: 0 15px;
+    margin: 0 18px;
     text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #87CEEB;
 }
 
+/* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px 20px;
-    background: #f4f4f4;
+    padding: 70px 20px;
+    background-color: white;
 }
 
+.hero h2 {
+    color: #800000;
+    font-size: 28px;
+}
+
+.hero p {
+    color: #444;
+    max-width: 600px;
+    margin: 10px auto 25px;
+}
+
+/* Button */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background: #004aad;
+    padding: 12px 25px;
+    background-color: #800000;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease;
 }
 
-footer {
+.btn:hover {
+    background-color: #87CEEB;
+    color: #800000;
+}
+
+/* General Sections */
+section {
+    padding: 50px 20px;
     text-align: center;
-    padding: 15px;
-    background: #003580;
+}
+
+section h2 {
+    color: #800000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #800000;
     color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
